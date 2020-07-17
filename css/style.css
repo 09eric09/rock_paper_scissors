@@ -17,10 +17,6 @@ h4{font-size:22px;}
 .score-board{width: 250px;margin: 0 auto;border: 4px solid black;font-size: 46px;margin-bottom: 30px;}
 
 /* Media Queries*/
-@media all and (min-width: 576px){
-  /* Footer */
-.footer-nav{display:block;}
-}
 
 @media all and (min-width: 768px){
   /* Global*/
@@ -30,16 +26,9 @@ h4{font-size:22px;}
   /* Boxes */
   .box{flex-basis: 45%;margin: 10px;}
   .box-2{flex-basis: 45%;margin: 10px;}
-
-  /* Footer */
-  .footer-nav{display: flex;}
-  .footer-nav{justify-content: center;}
 }
 
 @media all and (min-width: 992px){
-  /* Header */
-  .header-inner{flex-direction: row;justify-content: space-between;}
-
   /* Boxes */
   .box{flex-basis: 28%;}
   .box-2{flex-basis: 28%;}
